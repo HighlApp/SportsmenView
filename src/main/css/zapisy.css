@@ -1,0 +1,200 @@
+#formText {
+    top: 0;
+    bottom: 0;
+    margin: 2.5% auto auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-weight: 300;
+    font-size: 25px;
+    color: #d1d1d1;
+    line-height: 6rem;
+    text-align: center;
+    z-index: 1;
+}
+
+#formHeader {
+    /*text-align: center;*/
+    /*background-color: dimgrey;*/
+    width: 100%;
+    height: 10rem;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+
+.chevron {
+    position: relative;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 6px;
+    height: 60px;
+    width: 200px;
+    z-index: -1;
+
+}
+
+.chevron:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10%;
+    height: 100%;
+    width: 40%;
+    background: #616161;
+    -webkit-transform: skew(0deg, 3deg);
+    -moz-transform: skew(0deg, 3deg);
+    -ms-transform: skew(0deg, 3deg);
+    -o-transform: skew(0deg, 3deg);
+    transform: skew(0deg, 3deg);
+    z-index: -1;
+    -webkit-box-shadow: -5px 0px 200px -28px rgba(0,0,0,0.68);
+    -moz-box-shadow: -5px 0px 200px -28px rgba(0,0,0,0.68);
+    box-shadow: -5px 0px 200px -28px rgba(0,0,0,0.68);
+    border-radius: 6px 0 0 6px;
+}
+
+.chevron:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 10%;
+    height: 100%;
+    width: 40%;
+    background: #646464;
+    -webkit-transform: skew(0deg, -3deg);
+    -moz-transform: skew(0deg, -3deg);
+    -ms-transform: skew(0deg, -3deg);
+    -o-transform: skew(0deg, -3deg);
+    transform: skew(0deg, -3deg);
+    -webkit-box-shadow: 5px 0px 200px -28px rgba(0,0,0,0.68);
+    -moz-box-shadow: 5px 0px 200px -28px rgba(0,0,0,0.68);
+    box-shadow: 5px 0px 200px -28px rgba(0,0,0,0.68);
+    border-radius: 0 6px 6px 0;
+}
+
+#formContainer {
+    width: 80%;
+    height: 200rem;
+    background-color: #494549;
+    margin: 5rem auto 0;
+    border-radius: 7px;
+}
+
+.headerSection {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    /*text-decoration: #4f33ff underline;*/
+    color: #d1d1d1;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.underlineLeft {
+    width: 50%;
+    height: 0.4rem;
+    background-color: #00007c;
+    /*border-top-left-radius: px;*/
+    border-bottom-left-radius: 10px;
+}
+
+.underlineRight {
+    width: 50%;
+    height: 0.4rem;
+    background-color: #ea4700;
+    /*border-top-left-radius: px;*/
+    border-bottom-right-radius: 10px;
+}
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#chilredData {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#parentData, #childrenDataTyped {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 20px auto;
+    width: 70%;
+    color: #fcf6f3;
+}
+
+.inputText {
+    margin-top: 0.3rem;
+    color: black;
+    font-size: 1.3rem;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.4rem;
+    width: 100%;
+}
+.parentBlock1, .parentBlock2 {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.parentBlock1 div, .parentBlock2 div {
+    /*border: 1px hotpink solid;*/
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    margin: 1.125rem;
+    width: 16rem;
+}
+
+#facultySection {
+    color: #fcf6f3;
+    text-align: center;
+}
+
+.facultyMenu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 15rem;
+    height: 4rem;
+    margin-top: 0.3rem;
+    background-color: #6c6c6c;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.vl {
+    height: 90%;
+    background-color: black;
+    width: 0.1rem;
+}
+
+.svg-style {
+    margin-top: 0.4rem;
+    width: 3.3rem;
+    height: 4rem;
+}
+
+.buttonFacult {
+    width: 50%;
+    height: 100%;
+}
+
+.skiClicked {
+    background-color: #00007c;
+}
+
+.snowbClicked {
+    background-color: #ea4700;
+    /*padding-right: 0.1rem;*/
+}

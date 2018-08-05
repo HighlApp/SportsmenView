@@ -1,0 +1,73 @@
+html {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #aeaab6;
+}
+
+#mainHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    background-color: #494549;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+#mainHeader + * {
+    margin-top: 39px;
+}
+
+#navTop {
+    display: block;
+    width: 14rem;
+    height: 20%;
+    background-color: rgb(217, 237, 247);
+    margin-right: 3rem;
+}
+
+#trapezoidRight {
+    border-bottom: 2.5rem solid rgb(234, 71, 0);
+    border-left: 2.5rem solid transparent;
+    border-right: 0px solid transparent;
+    height: 0;
+    width: 20%;
+    box-sizing: unset;
+    display: flex;
+    flex-shrink: 2;
+}
+
+#trapezoidLeft {
+    border-bottom: 2.5rem solid rgb(0, 0, 124);
+    border-left: 0 solid transparent;
+    border-right: 2.5rem solid transparent;
+    height: 0;
+    width: 20%;
+    box-sizing: unset;
+    display: flex;
+    flex-flow: row nowrap;
+    flex-shrink: 4;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+    /*padding-left: 3rem;*/
+}
+
+#logonav {
+    position: relative;
+    height: 80%;
+    left: 0;
+}
+
+#nameTop {
+    white-space: nowrap;
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 2.5rem;
+    margin-left: 2rem;
+    font-size: 3vh;
+}

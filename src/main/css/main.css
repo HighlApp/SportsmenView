@@ -1,17 +1,13 @@
-html {
-    font-family: 'Nunito Sans', sans-serif;
-    background-color: #aeaab6;
-}
-
 #zapisyAd {
     display: block;
+    position: relative;
     background-size: contain;
     background: url("../images/startcut.jpg") no-repeat center;
     height: 402px;
-    width: 841px;
+    width: 845px;
     border: 0;
     border-radius: 5px;
-    margin: 40px auto 0;
+    margin: 0 auto;
     -webkit-box-shadow: 0px 0px 32px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 32px -1px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 32px -1px rgba(0,0,0,0.75);
@@ -48,11 +44,14 @@ html {
     align-items: center;
     /*background-color: rgba(104, 106, 140, 0.85);*/
     background-color: rgba(204, 65, 25, 0.7);
-    position: relative;
+    /*position: relative;*/
     width: 250px;
     height: 160px;
-    left: 530px;
-    top: 210px;
+    /*left: 530px;*/
+    /*top: 210px;*/
+    position: absolute;
+    right: 4rem;
+    top: 13rem;
     padding: 10px;
     border-radius: 7px;
     -webkit-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.75);
@@ -71,66 +70,6 @@ hr {
     /*padding: 0;*/
 }
 
-#mainHeader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 40px;
-    width: 100%;
-    background-color: #494549;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#navTop {
-    display: block;
-    width: 14rem;
-    height: 20%;
-    background-color: #ff0061;
-    background-color: rgb(217, 237, 247);
-    margin-right: 3rem;
-}
-
-#trapezoidRight {
-    border-bottom: 40px solid rgb(234, 71, 0);
-    border-left: 40px solid transparent;
-    border-right: 0px solid transparent;
-    height: 0;
-    width: 20%;
-    box-sizing: unset;
-    display: flex;
-}
-
-#trapezoidLeft {
-    border-bottom: 2.5rem solid rgb(0, 0, 124);
-    border-left: 0 solid transparent;
-    border-right: 2.5rem solid transparent;
-    height: 0;
-    width: 20%;
-    box-sizing: unset;
-    display: flex;
-    color: white;
-    font-weight: 900;
-    font-style: italic;
-    /*padding-left: 3rem;*/
-
-}
-
-#logonav {
-    position: relative;
-    height: 80%;
-    left: 0;
-}
-
-#nameTop {
-    letter-spacing: 1px;
-    font-size: 1.25rem;
-    text-align: center;
-    line-height: 2.5rem;
-    margin-left: 2rem;
-}
 
 .button {
     border-radius: 4px;

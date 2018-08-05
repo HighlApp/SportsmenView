@@ -57,5 +57,10 @@ input, select, progress{
 svg {
     width: 1.9em;
     height: 1.9em;
-    fill: currentColor;
+    /*fill: currentColor;*/
+}
+
+/* Change the white to any color ;) */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #fcf4df inset;
 }
