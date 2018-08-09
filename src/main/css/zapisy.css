@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #formText {
     top: 0;
     bottom: 0;
@@ -117,14 +121,14 @@ header {
     align-items: center;
 }
 
-#chilredData {
+.child {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
 }
 
-#parentData, #childrenDataTyped {
+#parentData, .childrenDataTyped {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -155,7 +159,7 @@ header {
     width: 16rem;
 }
 
-#facultySection {
+.facultySection {
     color: #fcf6f3;
     text-align: center;
 }
@@ -174,7 +178,7 @@ header {
 }
 
 .vl {
-    height: 90%;
+    height: 100%;
     background-color: black;
     width: 0.1rem;
 }
@@ -186,7 +190,7 @@ header {
 }
 
 .buttonFacult {
-    width: 50%;
+    width: 51%;
     height: 100%;
 }
 
@@ -196,5 +200,20 @@ header {
 
 .snowbClicked {
     background-color: #ea4700;
-    /*padding-right: 0.1rem;*/
+}
+
+.addChild {
+    position: absolute;
+    top: -2.5rem;
+    right: 10rem;
+    color: #d1d1d1;
+}
+
+.buttPad {
+    padding-right: 0.1rem;
+}
+
+.addChildWrapper{
+    position: relative;
+    width: 100%;
 }
